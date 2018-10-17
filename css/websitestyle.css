@@ -1,0 +1,103 @@
+.image-background{
+  font-family:lemon tuesday;
+  padding: 0px;
+  color: white;
+  align: left;
+  font-size: 50px;
+
+  background-image:url("../images/blueberry.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  height: 400px;
+  text-align: left;
+
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+h1{
+  font-family: "Georgia", cursive, serif; font-size:32px; color:white;
+}
+
+h2{
+  font-family: "Georgia", cursive, serif; font-size:20px; color:white;
+}
+.header{
+  text-decoration: underline;
+}
+
+.center-text{
+  font-size: 35px;
+  font-family: Georgia;
+  padding-top: 100px;
+  color: white;
+  padding-left: 650px;
+}
+.center-text-cursive{
+  font-size: 25px;
+  font-family: "lemon tuesday", cursive;
+  padding-top: 10px;
+  color: white;
+  padding-left: 750px;
+}
+.first_class{
+  text-decoration: overline underline line-through dashed salmon; font-size: 40px; color: lime;
+}
+em { display: block; }
+p{
+  font-family: "Courier New", Courier, monospace;
+}
+.bigindent{
+  padding-left:300px
+}
+.smallindent{
+  padding-left: 30px
+}
+.mediumindent{
+  padding-left: 150px
+}
+
+.emphasis {
+  color: red;
+}
+
+.background-color{
+  background-color: navy;
+  padding-top: 0px;
+}
+
+.about-text{
+  font-size: 30px;
+  font-family: Georgia;
+  padding-top: 10px;
+  color: navy;
+  text-align: center;
+}
+
+.about-subtext{
+  font-size: 10px;
+  font-family: Georgia;
+  padding-top: 25px;
+  color: navy;
+  padding-left: 50px;
+}
+
+.small-header-text{
+  font-size: 30px;
+  font-family: Georgia;
+  padding-top: 30px;
+}
+.title-text{
+  font-size: 40px;
+  font-family: Georgia;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.border1{
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  margin: 5px;
+}
