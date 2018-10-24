@@ -291,6 +291,10 @@ background-color: #003366
   padding-left: 85px
 }
 
+.supermegaleftpad{
+  padding-left: 130px
+}
+
 .smallrightpad{
   padding-right: 10px
 }
@@ -359,4 +363,15 @@ background-color: #003366
   background-color: #003366;
   text-decoration: underline;
   color: white;
+}
+
+.underline{
+  border-bottom: 1px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom-color: #003366;
+  border-style: solid;
+  margin-left: 100px;
+  margin-right: 100px;
 }
