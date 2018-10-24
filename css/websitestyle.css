@@ -1,5 +1,5 @@
 .image-background{
-  font-family:lemon tuesday;
+  font-family: "Lemon Tuesday";
   padding: 0px;
   color: white;
   align: left;
@@ -16,6 +16,61 @@
   padding-bottom: 0px;
 }
 
+.image-header1{
+  font-family:lemon tuesday;
+  padding: 0px;
+  color: white;
+  align: center;
+  font-size: 50px;
+
+  background-image:url("../images/citrus.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: right;
+
+  height: 200px;
+  text-align: left;
+
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+.image-header2{
+  font-family:lemon tuesday;
+  padding: 0px;
+  color: white;
+  align: left;
+  font-size: 50px;
+
+  background-image:url("../images/kiwi.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  height: 200px;
+  text-align: left;
+
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+.image-header3{
+  font-family:lemon tuesday;
+  padding: 0px;
+  color: white;
+  align: left;
+  font-size: 50px;
+
+  background-image:url("../images/raspberry.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  height: 200px;
+  text-align: left;
+
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
 h1{
   font-family: "Georgia", cursive, serif; font-size:32px; color:white;
 }
@@ -23,6 +78,7 @@ h1{
 h2{
   font-family: "Georgia", cursive, serif; font-size:20px; color:white;
 }
+
 .header{
   text-decoration: underline;
 }
@@ -34,6 +90,7 @@ h2{
   color: white;
   padding-left: 650px;
 }
+
 .center-text-cursive{
   font-size: 25px;
   font-family: "lemon tuesday", cursive;
@@ -41,29 +98,21 @@ h2{
   color: white;
   padding-left: 750px;
 }
-.first_class{
-  text-decoration: overline underline line-through dashed salmon; font-size: 40px; color: lime;
-}
-em { display: block; }
-p{
-  font-family: "Courier New", Courier, monospace;
-}
-.bigindent{
-  padding-left:300px
-}
+
 .smallindent{
   padding-left: 30px
 }
+
 .mediumindent{
   padding-left: 150px
 }
 
-.emphasis {
-  color: red;
+.bigindent{
+  padding-left:300px
 }
 
 .background-color{
-  background-color: navy;
+  background-color: #003366;
   padding-top: 0px;
 }
 
@@ -71,15 +120,30 @@ p{
   font-size: 30px;
   font-family: Georgia;
   padding-top: 10px;
-  color: navy;
+  color: #003366;
   text-align: center;
 }
 
 .about-subtext{
-  font-size: 10px;
+  font-size: 15px;
   font-family: Georgia;
   padding-top: 25px;
-  color: navy;
+  color: #003366;
+  padding-left: 50px;
+}
+
+.addresstitle{
+  font-size: 20px;
+  font-family: Georgia;
+  padding-top: 25px;
+  color: #003366;
+  padding-left: 50px;
+}
+
+.about-small{
+  font-size: 15px;
+  font-family: Georgia;
+  color: #003366;
   padding-left: 50px;
 }
 
@@ -87,7 +151,18 @@ p{
   font-size: 30px;
   font-family: Georgia;
   padding-top: 30px;
+  padding-left: 0px;
+  color: White;
+  text-decoration: none;
 }
+
+.small-header1{
+  font-size: 30px;
+  font-family: Georgia;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
 .title-text{
   font-size: 40px;
   font-family: Georgia;
@@ -95,9 +170,193 @@ p{
   padding-top: 20px;
 }
 
-.border1{
+.small-border{
   border-color: white;
   border-style: solid;
   border-width: 2px;
-  margin: 5px;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.small-border-leftpad{
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.small-border-rightpad{
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  padding-right: 10px;
+}
+
+.italic{
+  font-size: 10px;
+  font-family: Georgia;
+  padding-top: 25px;
+  color: #003366;
+  padding-left: 50px;
+  font-style: italic;
+}
+
+.italicnospace{
+  font-size: 10px;
+  font-family: Georgia;
+  color: #003366;
+  font-style: italic;
+}
+
+.header-text{
+  font-size: 20px;
+  font-family: Georgia;
+  padding-top: 25px;
+  color: #003366;
+  padding-left: 50px;
+}
+
+.footertext{
+font-size: 20px;
+font-family: Georgia;
+color: white;
+padding-left: 50px;
+background-color: #003366
+}
+
+.footertext2{
+font-size: 20px;
+font-family: Georgia;
+color: white;
+padding-left: 50px;
+background-color: #003366
+}
+
+.navy{
+  background-color: #003366;
+}
+
+.second-row{
+  padding-top: 25px;
+}
+
+.title{
+  text-family: lemon tuesday;
+  font-size: 40px;
+  color: white;
+  align: left;
+}
+
+.header-text2{
+  font-size: 20px;
+  font-family: Georgia;
+  padding-top: 25px;
+  color: #003366;
+}
+
+.smallleftpad{
+  padding-left: 10px
+}
+
+.leftpad{
+  padding-left: 25px
+}
+
+.bigleftpad{
+  padding-left: 50px
+}
+
+.superleftpad{
+  padding-left: 60px
+}
+
+.anotherleftpad{
+  padding-left: 58px
+}
+
+.leftpadding{
+  padding-left: 40px
+}
+
+.hugeleftpad{
+  padding-left: 100px
+}
+
+.megaleftpad{
+  padding-left: 85px
+}
+
+.smallrightpad{
+  padding-right: 10px
+}
+
+.hugerightpad{
+  padding-left: 20px
+}
+
+.smallbottompad{
+  padding-bottom: 10px
+}
+
+.bottompadding{
+  padding-bottom: 50px
+}
+
+.minitoppad{
+  padding-bottom: 5px
+}
+
+.smalltoppad{
+  padding-top: 10px
+}
+
+.toppad{
+  padding-top: 80px
+}
+
+.mediumtoppad{
+  padding-top: 20px
+}
+
+.bigtoppadding{
+  padding-top: 100px
+}
+
+.middle{
+  text-align: center;
+}
+
+.small-border:hover {
+  background-color: white;
+  text-decoration: underline;
+  color: #003366;
+}
+
+.small-border-leftpad:hover {
+  background-color: white;
+  text-decoration: underline;
+  color: #003366;
+  border-color: none;
+  border-spacing: 2px;
+}
+
+.small-border-rightpad:hover {
+  background-color: white;
+  text-decoration: none;
+  color: #003366;
+}
+
+.link:hover{
+  color: white
+}
+
+.footertext:hover{
+  background-color: #003366;
+  text-decoration: underline;
+  color: white;
 }
